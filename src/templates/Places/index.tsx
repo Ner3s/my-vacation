@@ -34,13 +34,13 @@ export default function PlacesTemplate({ place }: PlacesTemplateProps) {
   return (
     <>
       <NextSeo
-        title={`${place.name} - My Trips`}
+        title={`${place.name} - My vacation`}
         description={place.description?.text}
-        canonical="https://my-trips.neres.com"
+        canonical="https://my-vacation.neres.com"
         openGraph={{
           locale: 'pt_BR',
-          url: 'https://my-trips.neres.com',
-          site_name: 'My trips',
+          url: 'https://my-vacation.neres.com',
+          site_name: 'My vacation',
           images: [
             {
               url: place.gallery[0].url,

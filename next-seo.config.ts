@@ -2,8 +2,8 @@ export default {
   openGraph: {
     type: 'website',
     locale: 'pt_BR',
-    url: 'https://my-trips.ner3s.com/',
-    site_name: 'My trips'
+    url: 'https://my-vacation.ner3s.com/',
+    site_name: 'My vacation'
   },
   twitter: {
     handle: '@AlanNer3s',

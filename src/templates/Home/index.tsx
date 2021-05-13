@@ -11,19 +11,19 @@ export default function HomeTemplate({ places }: MapProps) {
   return (
     <>
       <NextSeo
-        title="My trips"
+        title="My vacation"
         description="Um simples projeto criado para mostrar as minhas viagens já feitas"
-        canonical="https://my-trips.neres.com"
+        canonical="https://my-vacation.neres.com"
         openGraph={{
           locale: 'pt_BR',
-          url: 'https://my-trips.neres.com',
-          site_name: 'My trips',
+          url: 'https://my-vacation.neres.com',
+          site_name: 'My vacation',
           images: [
             {
-              url: 'https://my-trips.neres.com/img/icon-512.png',
+              url: 'https://my-vacation.neres.com/img/icon-512.png',
               width: 800,
               height: 600,
-              alt: 'My Trips'
+              alt: 'My vacation'
             }
           ]
         }}
